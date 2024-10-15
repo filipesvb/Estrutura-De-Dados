@@ -12,6 +12,7 @@ export default class Pilha {
 		}
 	}
 	mostrarTopo() {
+		
 		return this.estaVazia() ? "Esta vazia!" : "Topo: " + this.vetor[this.topo];
 	}
 	empilhar(valor) { 
